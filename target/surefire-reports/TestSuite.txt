@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 741.318 s <<< FAILURE! - in TestSuite
+runScenario(testrunner.TestRunner_ProductListPage2)  Time elapsed: 99.08 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button class="ctaText baseBtn track-store-locator" type="submit" data-href="https://www.asianpaints.com/store-locator.html">...</button> is not clickable at point (1197, 531). Other element would receive the click: <span class="helpButtonLabel" aria-live="polite" aria-atomic="true">...</span>
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f78ee3e0b3d958e6d23d288b9375639b, clickElement {id=A2844966655BCDE9DD0CA05477DD0599_element_126}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:64032}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64032/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f78ee3e0b3d958e6d23d288b9375639b)] -> xpath: //button[text()='Go']]
+Session ID: f78ee3e0b3d958e6d23d288b9375639b
+
+runScenario(testrunner.TestRunner_ProductListPage2)  Time elapsed: 14.697 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button class="ctaText baseBtn track-store-locator" type="submit" data-href="https://www.asianpaints.com/store-locator.html">...</button> is not clickable at point (1197, 531). Other element would receive the click: <span class="helpButtonLabel" aria-live="polite" aria-atomic="true">...</span>
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b713f9b2d1b0f63c7b82d812024105c, clickElement {id=5D3E71E03DA68D2E9AB3FEF51808F2D0_element_79}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:64174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64174/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0b713f9b2d1b0f63c7b82d812024105c)] -> xpath: //button[text()='Go']]
+Session ID: 0b713f9b2d1b0f63c7b82d812024105c
+
