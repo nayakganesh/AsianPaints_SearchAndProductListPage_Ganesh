@@ -40,9 +40,9 @@ public class ProductListPage_stepdefinitions_excel extends Utility{
 			public void chrome_is_opened_and_asian_paints_app_is_opened() throws IOException, InterruptedException {
 				objectMethod();
 				Utility.implicitWait();
-				lp.noThanksButton();
-				Utility.implicitWait();
-				lp.laterButton();
+				//lp.noThanksButton();
+				lp.Dontallow();
+				//lp.laterButton();
 				lp.acceptCookiesButtonValidation();
 		        logger = report.createTest("test01");
 		        logger.log(Status.INFO, "Validating landing page title");

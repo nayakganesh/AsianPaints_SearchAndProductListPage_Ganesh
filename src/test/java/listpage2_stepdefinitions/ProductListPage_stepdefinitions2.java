@@ -30,9 +30,9 @@ public class ProductListPage_stepdefinitions2 extends Utility{
 	public void chrome_is_opened_and_asian_paints_app_is_opened() throws IOException, InterruptedException {
 		objectMethod();
 		Utility.implicitWait();
-		lp.noThanksButton();
-		Utility.implicitWait();
-		lp.laterButton();
+		//lp.noThanksButton();
+		//lp.laterButton();
+		lp.Dontallow();
 		lp.acceptCookiesButtonValidation();
 		
         logger = report.createTest("test01");

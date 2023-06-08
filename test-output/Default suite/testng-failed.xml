@@ -6,8 +6,8 @@
       <class name="testrunner.TestRunner_ProductListPage1">
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="2"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
         </methods>
       </class> <!-- testrunner.TestRunner_ProductListPage1 -->
     </classes>

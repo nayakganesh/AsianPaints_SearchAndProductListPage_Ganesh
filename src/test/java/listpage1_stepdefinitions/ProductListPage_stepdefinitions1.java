@@ -30,6 +30,7 @@ public class ProductListPage_stepdefinitions1 extends Utility{
 		Utility.implicitWait();
 		//lp.noThanksButton();
 		//lp.laterButton();
+		lp.Dontallow();
 		lp.acceptCookiesButtonValidation();
         logger = report.createTest("test01");
         logger.log(Status.INFO, "Validating landing page title");

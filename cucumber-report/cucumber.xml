@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="79.183" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Asian Paints Product List page" name="Verify Find a store functionality with valid details - Example #1.1" time="35.681">
+<system-out><![CDATA[
+Given Chrome is opened and Asian Paints app is opened.......................passed
+When User searches the product..............................................passed
+Then User navigates to the Product List page................................passed
+When User enters Pincode "700135"...........................................passed
+And User clicks on Go button................................................passed
+Then Application shows the stores near you..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Asian Paints Product List page" name="Verify Find a store functionality with valid details - Example #1.2" time="19.036">
+<system-out><![CDATA[
+Given Chrome is opened and Asian Paints app is opened.......................passed
+When User searches the product..............................................passed
+Then User navigates to the Product List page................................passed
+When User enters Pincode "761008"...........................................passed
+And User clicks on Go button................................................passed
+Then Application shows the stores near you..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Asian Paints Product List page" name="Verify Find a store functionality with invalid details - Example #1.1" time="12.398">
+<system-out><![CDATA[
+Given Chrome is opened and Asian Paints app is opened.......................passed
+When User searches the product..............................................passed
+Then User navigates to the Product List page................................passed
+When User enters Pincode "$$$$$$"...........................................passed
+And User clicks on Go button................................................passed
+Then Application displays a message to enter a valid Zip Code...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Asian Paints Product List page" name="Verify Find a store functionality with invalid details - Example #1.2" time="11.721">
+<system-out><![CDATA[
+Given Chrome is opened and Asian Paints app is opened.......................passed
+When User searches the product..............................................passed
+Then User navigates to the Product List page................................passed
+When User enters Pincode "123@45"...........................................passed
+And User clicks on Go button................................................passed
+Then Application displays a message to enter a valid Zip Code...............passed
+]]></system-out>
+</testcase>
+</testsuite>
